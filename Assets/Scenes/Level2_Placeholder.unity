@@ -119,114 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &38273925
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 38273929}
-  - component: {fileID: 38273928}
-  - component: {fileID: 38273927}
-  - component: {fileID: 38273926}
-  m_Layer: 0
-  m_Name: r
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!65 &38273926
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 38273925}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &38273927
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 38273925}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &38273928
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 38273925}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &38273929
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 38273925}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5, y: 0.3, z: -0.25841}
-  m_LocalScale: {x: 8.4175, y: 8.4175, z: 8.4175}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &462625697
 GameObject:
   m_ObjectHideFlags: 0
@@ -1392,6 +1284,38 @@ PrefabInstance:
       propertyPath: cameraPivot
       value: 
       objectReference: {fileID: 1109459088}
+    - target: {fileID: 3770849197645712279, guid: 98ec39594b21922428914bd2290e54b6, type: 3}
+      propertyPath: levelBuildings.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3770849197645712279, guid: 98ec39594b21922428914bd2290e54b6, type: 3}
+      propertyPath: 'levelBuildings.Array.data[0]'
+      value: 
+      objectReference: {fileID: -2421866412578040809, guid: 085f4c2f081db134c8be9055bdf66b76, type: 3}
+    - target: {fileID: 3770849197645712279, guid: 98ec39594b21922428914bd2290e54b6, type: 3}
+      propertyPath: 'levelBuildings.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8195647619759666470, guid: d0414510ff8879544af032296fc5c4a4, type: 3}
+    - target: {fileID: 3770849197645712279, guid: 98ec39594b21922428914bd2290e54b6, type: 3}
+      propertyPath: 'levelBuildings.Array.data[2]'
+      value: 
+      objectReference: {fileID: 4215348041180979589, guid: 38fcc26d75c0abb4088036e2fe0fcd63, type: 3}
+    - target: {fileID: 3770849197645712279, guid: 98ec39594b21922428914bd2290e54b6, type: 3}
+      propertyPath: 'levelBuildings.Array.data[3]'
+      value: 
+      objectReference: {fileID: 4926410709396541087, guid: f884f430cd8ef224b966e6b6aa218b49, type: 3}
+    - target: {fileID: 3770849197645712279, guid: 98ec39594b21922428914bd2290e54b6, type: 3}
+      propertyPath: 'levelBuildings.Array.data[4]'
+      value: 
+      objectReference: {fileID: 5317604099024174838, guid: 700a872a7f9914e4ba38e7851eb7e81b, type: 3}
+    - target: {fileID: 3770849197645712279, guid: 98ec39594b21922428914bd2290e54b6, type: 3}
+      propertyPath: 'levelBuildings.Array.data[5]'
+      value: 
+      objectReference: {fileID: -2408735013194109745, guid: 474884c6afe919a4c9a98f507a25462a, type: 3}
+    - target: {fileID: 3770849197645712279, guid: 98ec39594b21922428914bd2290e54b6, type: 3}
+      propertyPath: 'levelBuildings.Array.data[6]'
+      value: 
+      objectReference: {fileID: 5622255475359615802, guid: 70ae3a8f9098dde4b8f4aceca886a117, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1458,4 +1382,3 @@ SceneRoots:
   - {fileID: 1917553991}
   - {fileID: 1147003884}
   - {fileID: 730605793}
-  - {fileID: 38273929}

@@ -53,8 +53,20 @@ MonoBehaviour:
   description: Symbole du travail, offrez de l'emplois
   imageBouton: {fileID: 21300000, guid: 04e0915e397c97d408369baaa12ce43b, type: 3}
   points:
-  - nom: Maison
+  - nom: Immeuble
     bonus: 2
+    malus: 0
+  - nom: Lampadaire
+    bonus: 1
+    malus: 0
+  - nom: Maison_01
+    bonus: 1
+    malus: 0
+  - nom: Maison_02
+    bonus: 1
+    malus: 0
+  - nom: Magasin
+    bonus: 4
     malus: 0
   canDrag: 1
 --- !u!95 &9100206456324639644

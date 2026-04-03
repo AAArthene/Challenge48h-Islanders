@@ -189,8 +189,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "<b>R\xF4le 1</b>\nPr\xE9nom Nom\n\n<b>R\xF4le 2</b>\nPr\xE9nom Nom\n\n<b>R\xF4le
-    3</b>\nPr\xE9nom Nom\n\n<b>Musique</b>\nNom de la musique"
+  m_Text: "R\xE9alis\xE9 par\n\nChateau Wagenbach Armand\n\nAsti\xE9 Alexandre\n\nBaldo
+    Elio\n\nDamo Salom\xE9\n\nDarthois Elea"
 --- !u!222 &49416167
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -52,7 +52,10 @@ MonoBehaviour:
   nom: Petite maison
   description: "Les habitants sont heureux pr\xE8s de la lumi\xE8res"
   imageBouton: {fileID: 21300000, guid: 408267378535a784b9c3ac30ea72f4b5, type: 3}
-  points: []
+  points:
+  - nom: Eolien
+    bonus: 1
+    malus: 0
   canDrag: 1
 --- !u!95 &6876814728608772648
 Animator:

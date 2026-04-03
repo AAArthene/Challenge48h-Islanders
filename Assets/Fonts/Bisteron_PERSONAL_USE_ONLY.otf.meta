@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d34aca75eec6118449bc604d58b68084
+guid: cf58d6f6ef4a62648a85dbc507df65fc
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Cyberpunks
+  - Bisteron PERSONAL USE
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0

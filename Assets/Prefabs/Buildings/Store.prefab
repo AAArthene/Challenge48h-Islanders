@@ -52,7 +52,10 @@ MonoBehaviour:
   nom: Magasin
   description: Pour statisfaire les habitants
   imageBouton: {fileID: 21300000, guid: ee6b8177b9d42c342a538d7de1c01f9b, type: 3}
-  points: []
+  points:
+  - nom: Eloien
+    bonus: 1
+    malus: 0
   canDrag: 1
 --- !u!95 &994203104950351627
 Animator:

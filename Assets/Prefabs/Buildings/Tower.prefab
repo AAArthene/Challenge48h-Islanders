@@ -51,8 +51,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nom: Tour Arasaka
   description: Symbole du travail, offrez de l'emplois
-  imageBouton: {fileID: 21300000, guid: 89a6ae3242d34004ead254ba13c5f976, type: 3}
-  points: []
+  imageBouton: {fileID: 21300000, guid: 04e0915e397c97d408369baaa12ce43b, type: 3}
+  points:
+  - nom: Maison
+    bonus: 2
+    malus: 0
   canDrag: 1
 --- !u!95 &9100206456324639644
 Animator:

@@ -316,7 +316,6 @@ GameObject:
   - component: {fileID: 566972423}
   - component: {fileID: 566972426}
   - component: {fileID: 566972425}
-  - component: {fileID: 566972424}
   m_Layer: 0
   m_Name: Sea
   m_TagString: Untagged
@@ -339,27 +338,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1917553991}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &566972424
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 566972422}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &566972425
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -383,7 +361,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 05ff9ad175acef043a94a0eca7b76cb1, type: 2}
+  - {fileID: -876546973899608171, guid: d47849b9e3934194382531866c3fa8d6, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -590,31 +568,31 @@ PrefabInstance:
     - target: {fileID: 3770849197645712279, guid: 98ec39594b21922428914bd2290e54b6, type: 3}
       propertyPath: 'levelBuildings.Array.data[0]'
       value: 
-      objectReference: {fileID: 7982054713076713438, guid: 85be93aa400656242bccd955e2cfa81a, type: 3}
+      objectReference: {fileID: -2421866412578040809, guid: 085f4c2f081db134c8be9055bdf66b76, type: 3}
     - target: {fileID: 3770849197645712279, guid: 98ec39594b21922428914bd2290e54b6, type: 3}
       propertyPath: 'levelBuildings.Array.data[1]'
       value: 
-      objectReference: {fileID: 6872557828066024061, guid: ba9fdfe4e47cd3b4d8f41deb38f20e1b, type: 3}
+      objectReference: {fileID: 4215348041180979589, guid: 38fcc26d75c0abb4088036e2fe0fcd63, type: 3}
     - target: {fileID: 3770849197645712279, guid: 98ec39594b21922428914bd2290e54b6, type: 3}
       propertyPath: 'levelBuildings.Array.data[2]'
       value: 
-      objectReference: {fileID: 5884318002980387983, guid: 87521ba3a694974409b2993bf7f39606, type: 3}
+      objectReference: {fileID: -2408735013194109745, guid: 474884c6afe919a4c9a98f507a25462a, type: 3}
     - target: {fileID: 3770849197645712279, guid: 98ec39594b21922428914bd2290e54b6, type: 3}
       propertyPath: 'levelBuildings.Array.data[3]'
       value: 
-      objectReference: {fileID: -2421866412578040809, guid: 085f4c2f081db134c8be9055bdf66b76, type: 3}
+      objectReference: {fileID: 8195647619759666470, guid: d0414510ff8879544af032296fc5c4a4, type: 3}
     - target: {fileID: 3770849197645712279, guid: 98ec39594b21922428914bd2290e54b6, type: 3}
       propertyPath: 'levelBuildings.Array.data[4]'
       value: 
-      objectReference: {fileID: 4215348041180979589, guid: 38fcc26d75c0abb4088036e2fe0fcd63, type: 3}
+      objectReference: {fileID: 4926410709396541087, guid: f884f430cd8ef224b966e6b6aa218b49, type: 3}
     - target: {fileID: 3770849197645712279, guid: 98ec39594b21922428914bd2290e54b6, type: 3}
       propertyPath: 'levelBuildings.Array.data[5]'
       value: 
-      objectReference: {fileID: -2408735013194109745, guid: 474884c6afe919a4c9a98f507a25462a, type: 3}
+      objectReference: {fileID: 5317604099024174838, guid: 700a872a7f9914e4ba38e7851eb7e81b, type: 3}
     - target: {fileID: 3770849197645712279, guid: 98ec39594b21922428914bd2290e54b6, type: 3}
       propertyPath: 'levelBuildings.Array.data[6]'
       value: 
-      objectReference: {fileID: 8195647619759666470, guid: d0414510ff8879544af032296fc5c4a4, type: 3}
+      objectReference: {fileID: 5622255475359615802, guid: 70ae3a8f9098dde4b8f4aceca886a117, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -647,7 +625,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 1
-  m_Color: {r: 0.4516732, g: 0.4987402, b: 0.6603774, a: 1}
+  m_Color: {r: 0.2270826, g: 0.31023514, b: 0.5943396, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30

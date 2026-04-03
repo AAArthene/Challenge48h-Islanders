@@ -60,7 +60,7 @@ MonoBehaviour:
     bonus: 1
     malus: 0
   - nom: Tour Arasaka
-    bonus: 2
+    bonus: 1
     malus: 0
   - nom: Maison_01
     bonus: 1

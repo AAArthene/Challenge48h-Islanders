@@ -645,7 +645,7 @@ PrefabInstance:
     - target: {fileID: 3770849197645712279, guid: 98ec39594b21922428914bd2290e54b6, type: 3}
       propertyPath: 'levelBuildings.Array.data[1]'
       value: 
-      objectReference: {fileID: 4215348041180979589, guid: 38fcc26d75c0abb4088036e2fe0fcd63, type: 3}
+      objectReference: {fileID: 5924363616191210624, guid: ffc00ab623512b74ba8169c4a9698842, type: 3}
     - target: {fileID: 3770849197645712279, guid: 98ec39594b21922428914bd2290e54b6, type: 3}
       propertyPath: 'levelBuildings.Array.data[2]'
       value: 
@@ -664,6 +664,10 @@ PrefabInstance:
       objectReference: {fileID: 5317604099024174838, guid: 700a872a7f9914e4ba38e7851eb7e81b, type: 3}
     - target: {fileID: 3770849197645712279, guid: 98ec39594b21922428914bd2290e54b6, type: 3}
       propertyPath: 'levelBuildings.Array.data[6]'
+      value: 
+      objectReference: {fileID: 5622255475359615802, guid: 70ae3a8f9098dde4b8f4aceca886a117, type: 3}
+    - target: {fileID: 3770849197645712279, guid: 98ec39594b21922428914bd2290e54b6, type: 3}
+      propertyPath: 'levelBuildings.Array.data[7]'
       value: 
       objectReference: {fileID: 5622255475359615802, guid: 70ae3a8f9098dde4b8f4aceca886a117, type: 3}
     m_RemovedComponents: []

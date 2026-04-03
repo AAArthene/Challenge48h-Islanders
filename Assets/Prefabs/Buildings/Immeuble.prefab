@@ -51,7 +51,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nom: Immeuble
   description: "Bruyant et \xE0 \xE9loign\xE9 des maisons"
-  imageBouton: {fileID: 21300000, guid: 5251b0f5b46144349bad6cc98bee82a6, type: 3}
+  imageBouton: {fileID: 21300000, guid: 31056ccdc2af4b74480f6c085eb73371, type: 3}
   points:
   - nom: Lampadaire
     bonus: 1

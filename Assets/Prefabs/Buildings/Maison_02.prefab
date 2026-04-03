@@ -49,11 +49,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5462c902686d9b84e80e89b5b2e26e97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nom: Grande maison
+  nom: Maison_02
   description: "Les habitants sont heureux pr\xE8s de la lumi\xE8res"
   imageBouton: {fileID: 21300000, guid: 6df94762bdc62da4295d5dd7e6107266, type: 3}
   points:
-  - nom: Eolien
+  - nom: Eolienne
+    bonus: 0
+    malus: -1
+  - nom: Lampadaire
+    bonus: 1
+    malus: 0
+  - nom: Tour Arasaka
+    bonus: 2
+    malus: 0
+  - nom: Maison_01
     bonus: 1
     malus: 0
   canDrag: 1

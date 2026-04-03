@@ -53,12 +53,21 @@ MonoBehaviour:
   description: "Produit de l'\xE9lectricit\xE9 gr\xE2ce au vent"
   imageBouton: {fileID: 21300000, guid: a998bfe43c0cd5b4c9bc6b653c4e2ad3, type: 3}
   points:
-  - nom: Maison
-    bonus: 0
-    malus: -1
   - nom: Lampadaire
     bonus: 1
     malus: 0
+  - nom: Maison_01
+    bonus: 0
+    malus: -1
+  - nom: Maison_02
+    bonus: 0
+    malus: -1
+  - nom: Immeuble
+    bonus: 0
+    malus: -2
+  - nom: Magasin
+    bonus: 0
+    malus: -2
   canDrag: 1
 --- !u!95 &-3571078193836891087
 Animator:

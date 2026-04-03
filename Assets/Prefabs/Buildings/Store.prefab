@@ -53,7 +53,22 @@ MonoBehaviour:
   description: Pour statisfaire les habitants
   imageBouton: {fileID: 21300000, guid: ee6b8177b9d42c342a538d7de1c01f9b, type: 3}
   points:
-  - nom: Eloien
+  - nom: Immeuble
+    bonus: 2
+    malus: 0
+  - nom: Maison_01
+    bonus: 1
+    malus: 0
+  - nom: Maison_02
+    bonus: 1
+    malus: 0
+  - nom: Eolienne
+    bonus: 0
+    malus: -2
+  - nom: Tour Arasaka
+    bonus: 4
+    malus: 0
+  - nom: Lampadaire
     bonus: 1
     malus: 0
   canDrag: 1

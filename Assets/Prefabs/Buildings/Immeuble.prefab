@@ -52,7 +52,19 @@ MonoBehaviour:
   nom: Immeuble
   description: "Bruyant et \xE0 \xE9loign\xE9 des maisons"
   imageBouton: {fileID: 21300000, guid: 5251b0f5b46144349bad6cc98bee82a6, type: 3}
-  points: []
+  points:
+  - nom: Lampadaire
+    bonus: 1
+    malus: 0
+  - nom: Eolienne
+    bonus: 0
+    malus: -2
+  - nom: Tour Arasaka
+    bonus: 2
+    malus: 0
+  - nom: Magasin
+    bonus: 2
+    malus: 0
   canDrag: 1
 --- !u!95 &3976004764150771989
 Animator:
